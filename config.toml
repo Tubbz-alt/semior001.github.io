@@ -1,0 +1,165 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Yelshat Duskaliyev"
+theme = "hugo-devresume-theme"
+
+[params]
+    author = "Semior001"
+    description = "CV"
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+            title = "Junior Developer"
+            dates = "09/2018 - 07/2019"
+            company = "Technodom Operator JSC"
+            details = ""
+        
+        [[params.experience.list.items]]
+            title = "Feedback Collector Android application + Website for analytics"
+            details = "Blah blah lbha"
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+            title = "Almaty Physics and Mathematics Lyceum #166 website"
+            tagline = """Website for my alma mater with the development of simple OctoberCMS (PHP) plugins, allowing the head of school 
+                        to add some additional information and make some kind of electronic library."""
+
+    [params.profile]
+        enable = true
+        name = "Yelshat Duskaliyev"
+        tagline = "Software Engineer"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Innopolis & Almaty"
+
+        [[params.contact.list]]
+            icon = "fas fa-phone-square"
+            url = "tel:+77022065472"
+            text = "+77022065472 (kz)"
+
+        [[params.contact.list]]
+            icon = "fas fa-phone-square"
+            url = "tel:+79656022297"
+            text = "+79656022297 (ru)"
+
+        [[params.contact.list]]
+            icon = "fas fa-envelope-square"
+            url = "mailto:ura2178@gmail.com"
+            text = "ura2178@gmail.com"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+            title = "Programming languages"
+            [[params.skills.list.items]]
+                details = "Golang/Java/Python"
+        
+        [[params.skills.list]]
+            title = "Web technologies"
+            [[params.skills.list.items]]
+                details = "Rest/WebSockets/MQ/Docker"
+        
+        [[params.skills.list]]
+            title = "Data modelling"
+            [[params.skills.list.items]]
+                details = "JSON/XML/XLST"
+        
+        [[params.skills.list]]
+            title = "Data management"
+            [[params.skills.list.items]]
+                details = "MySQL/PostgreSQL/MongoDB"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+            degree = "B.Sc in Informational Systems"
+            university = "Kazakh-British Technical University"
+            dates = "2018 - 2019"
+
+        [[params.education.list]]
+            degree = "B.Sc in Computer Science"
+            university = "Innopolis University"
+            dates = "2019 - present"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+            name = "Award Lorem Ipsum"
+            body = "Microsoft lorem ipsum"
+            date = "2019"
+
+        [[params.awards.list]]
+            name = "Award Donec Sodales"
+            body = "Oracle Aenean"
+            date = "2017"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+            name = "Russian"
+            level = "Native"
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Intermediate"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Reading fantastics"
+        [[params.interests.list]]
+        name = "Learning people"
+        [[params.interests.list]]
+        name = "Travelling"
+
+    [params.summary]
+        enable = true
+        text = """High result achiever. I’m interested in new technologies. I like to read professional literature.  
+            Also, I always try to find the best application for my knowledge and my skills."""
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+            title = "Papers"
+        [[params.information.list.items]]
+            details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+            details = "2016 · Sed Fringilla"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+            icon = "fab fa-github-square"
+            url = "https://github.com/semior001"
+            title = "semior001"
+
+        [[params.social.list]]
+            icon = "fab fa-linkedin"
+            url = "https://www.linkedin.com/in/yelshat-duskaliev-181813139/"
+            title = "Yelshat Duskaliyev"
+
+        [[params.social.list]]
+            icon = "fab fa-telegram"
+            url = "https://t.me/semior001"
+            title = "semior001"
+
+
+
+
+
+
